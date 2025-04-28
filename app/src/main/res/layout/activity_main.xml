@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <!-- Button 1 (Yellow) -->
+    <Button
+
+        android:id="@+id/btnFMCG"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="0.25"
+        android:backgroundTint="#FFFF00"
+        android:text="FMCG Products"
+        android:textColor="#000000"
+        android:textSize="40sp"
+
+
+        />
+
+    <!-- Button 2 (Bright Blue) -->
+    <Button
+        android:id="@+id/btnFruitsVeggies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#007AFF"
+        android:text="Fruits &amp; Vegetables"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <!-- Button 3 (Orange) -->
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FFA500"
+        android:text="About"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+</LinearLayout>

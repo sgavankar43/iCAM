@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="iCAM - FRUIT"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <!-- Select Image Button (Yellow) -->
+
+
+    <!-- Capture Button (Bright Blue) -->
+    <Button
+        android:id="@+id/captureBtn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/result"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FFFF00"
+        android:text="Capture"
+        android:textSize="40sp"
+        android:textColor="#000" />
+
+    <!-- Predict Button (Orange) -->
+    <Button
+        android:id="@+id/predictBtn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/captureBtn"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#007AFF"
+        android:text="Predict"
+        android:textSize="40sp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Result will appear here"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/MoreInfoBtn"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FFFF00"
+        android:text="Select Image"
+        android:textSize="40sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/MoreInfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/predictBtn"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FFA500"
+        android:text="More Info"
+        android:textSize="40sp"
+        android:textColor="#000000" />
+
+</RelativeLayout>

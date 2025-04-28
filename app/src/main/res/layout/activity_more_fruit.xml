@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/moreFruitLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp">
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:scaleType="centerInside" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productImageView"
+        android:layout_marginTop="48dp"
+        android:text="Product Name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <!-- Product Description -->
+    <TextView
+        android:id="@+id/productDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productNameTextView"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="Product Description"
+
+        android:textSize="18sp"
+        android:textColor="#DDDDDD"
+        android:lineSpacingExtra="6dp"
+        android:textAlignment="center" />
+
+    <!-- Recapture Button -->
+    <Button
+        android:id="@+id/recaptureBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#FFFF00"
+        android:text="Recapture"
+        android:textSize="40sp"
+        android:textColor="#000000" />
+
+    <!-- Home Button -->
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#007AFF"
+        android:text="Home"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+</RelativeLayout>
